@@ -1,0 +1,31 @@
+ 
+ body{
+    background-image: url(./london.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    }
+.bgimg{
+    margin-top: 300px;
+    text-align: center;
+    color: white;
+}
+.p{
+    text-align: center;
+    width: 800px;
+    margin-left: 350px;
+    text-shadow: 5px 5px rgb(255, 0, 0);
+}
+.h2{
+    border: 5px  outset white ;
+    border-radius: 5px;
+    width: 450px;
+    margin-left: 500px;
+}
+.h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 38px;
+    border-bottom: 5px solid red;
+    width: 700px;
+    margin-left: 400px;
+}
