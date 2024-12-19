@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            background-image: url(./dark.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 800px;
+        }
+        .navi{
+            height: 70px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .res{
+            color: orange;
+            display: flex;
+            font-size: 24px;
+            padding: 25px;
+        }
+        .end{
+            color: white;
+            display: flex;
+            gap: 20px;
+            font-size: 18px;
+            padding: 25px;
+        }
+        select{
+            background-color: black;
+            font-size: 16px;
+            color:white;
+            border: none;
+        }
+        button{
+            background-color: orange;
+            color: white;
+            height: 40px;
+            width: 150px;
+            font-size: 16px;
+            border-radius: 10px;
+                       
+        }
+        button:hover{
+            background-color: orangered;
+        }
+        .body{
+            display: flex;
+        }
+        
+        .content{
+            color: white;
+            width: 45%;
+            margin-left: 50px;
+            margin-top: 180px;
+           
+        }
+        h1{
+            font-size:52px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .bb{
+            margin-top: 40px;
+            margin-left: 20px;
+        }
+        .img{
+            border-radius: 250px;
+            margin-top: 100px;
+            margin-left: 200px;
+        }
+        .img:hover {
+            transform:rotate(360deg);
+            transition: 2s;
+           /* transform: rotate(180deg); */
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navi">
+            <div class="res">
+            <label for=""><b>Restoran</b></label>
+            </div>
+            <div class="end">
+                <label for="">HOME</label>
+                <label for="">ABOUT</label>
+                <label for="">SERVICE</label>
+                <label for="">MENU</label>
+                <select name="" id="">
+                    <option value="">PAGES</option>
+                </select>
+                <label for="">CONTACT</label>
+                <button>BOOK A TABLE</button>
+
+            </div>
+        </div>
+        <div class="body">
+            <div class="content">
+                <h1>Enjoy Our <br>Delicios Meal</h1>
+                <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                <div class="bb">
+                    <button>BOOK A TABLE</button>
+                </div>
+            </div>
+            
+            <div class="image">
+                <img class="img" src="./thumb_08-08-2023-1691488496.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

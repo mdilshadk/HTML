@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .part1{
+            background-color: blue;
+            width: 100%;
+            height: 50%;
+        }
+        .navi{
+            height: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="part1">
+        <div class="navi">
+            <div class="fn">
+                <label for="">Business</label>
+            </div>
+            <div class="ln">
+                <label for="">Home</label>
+                <label for="">Services</label>
+                <label for="">Portfolio</label>
+                <label for="">Pricing</label>
+                <label for="">Team</label>
+                <label for="">contact</label>
+            </div>
+        </div>
+
+        <div class="body1">
+            <div class="cont">
+                <h1>Corporate & Business Site Template By Ayro UI.</h1>
+                <p>We are a digital agency that helps to achive that business outcomes. We see technologyas a tool to create amzing things</p>
+                <button>GET STARTED</button>.
+                <label for="">Watch intro</label>
+            </div>
+            <div class="image"></div>
+        </div>
+
+    </div>
+
+    <div class="part2">
+
+    </div>
+</body>
+</html>
